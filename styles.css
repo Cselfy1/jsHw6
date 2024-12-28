@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.user-list, .todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-item, .todo-item {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.user-item:hover {
+    background-color: #5c5151;
+}
+
+.todo-item {
+    margin-left: 20px;
+}
